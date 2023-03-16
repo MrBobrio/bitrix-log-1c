@@ -1,3 +1,4 @@
+<?
 class EventClass{
  static function ric_OnBeforeCatalogImport1C($arPropertyValues, $ABS_FILE_NAME){
     $msg = "Перед загрузкой пакета XML";
@@ -38,3 +39,4 @@ class EventClass{
                );
     return "";}
 }	
+?>
